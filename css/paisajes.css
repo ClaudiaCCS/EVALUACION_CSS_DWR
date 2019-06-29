@@ -1,0 +1,180 @@
+﻿body {
+
+
+
+	background-color: #02010A;
+
+	color: white;
+
+	font-size: 16px;
+
+	font-family: Dancing Script;
+
+	margin:10px;
+	text-align: center;
+}
+
+
+
+header
+{
+
+	margin: 0 auto;
+
+	height: 2em;
+
+	padding-top: 2%;
+
+	padding-bottom: 2%;
+
+	background-color: #5B7989;
+
+	color:white;
+
+	width: 960px;
+	text-shadow: 2px 2px 2px #02010A;
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	display:flex;
+	flex-direction:row;
+	font-family: Dancing Script;
+
+
+	
+}
+
+header h1 {
+	width:60%;
+}
+
+header nav {
+	float:right, bottom;
+	width: 40%;
+}
+
+header nav li {
+	float: right;
+	display: inline;
+	margin: 10px;
+}
+
+
+
+
+#contenido {
+
+	display: flex;
+
+	flex-direction: row;
+
+	width:960px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #D5C75F;
+}
+
+
+
+footer {
+
+	text-align: center;
+
+	width:960px;
+	margin:0 auto;
+	display: flex;
+	flex-direction:row;
+	color: black;
+
+}
+
+
+.contenedor {
+
+	display: flex;
+
+	flex-direction: column;
+
+}
+
+
+img{
+
+	border: 2px solid white;
+
+	width: 160%;
+
+}
+
+
+.contenedor > div {
+
+	text-align: center;
+
+	padding: 10px;
+
+	background-color: #D5C75F;
+	width: 50%;
+
+}
+
+
+#imagen1 img {
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+
+#imagen2 img {
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+}
+
+#imagen3 img {
+	-webkit-filter:invert(100%);
+	filter:invert(100%);
+}
+
+#imagen4 img {
+	-webkit-filter:sepia(90%);
+	filter:sepia(90%);
+}
+
+#imagen5 img {
+	-webkit-filter:invert(100%);
+	filter:invert(100%);
+}
+
+#imagen6 img {
+	-webkit-filter:sepia(90%);
+	filter:sepia(90%);
+}
+
+#columna4 {
+	background-color: #C6D5C5;
+	width:25%;
+	height: 10em;
+	border-radius: 0px 0px 0px 10px;
+	-moz-border-radius: 0px 0px 0px 10px;
+	-webkit-border-radius: 0px 0px 0px 10px;
+}
+
+#columna5 {
+	background-color: #C6D5C5;
+	width:25%;
+	height: 10em;
+}
+
+#columna6 {
+	background-color: #C6D5C5;
+	width:25%;
+	height: 10em;
+}
+
+#columna7 {
+	background-color: #C6D5C5;
+	width:25%;
+	height: 10em;
+	border-radius: 0px 0px 10px 0px;
+	-moz-border-radius: 0px 0px 10px 0px;
+	-webkit-border-radius: 0px 0px 10px 0px;
+}

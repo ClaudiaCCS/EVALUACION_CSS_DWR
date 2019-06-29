@@ -1,0 +1,249 @@
+*
+{
+
+	margin:0;
+
+}
+
+
+body{
+
+	background-color: #02010A;
+
+	color: black;
+
+	font-size: 16px;
+
+	font-family: Dancing Script;
+
+	margin:10px;
+
+}
+
+
+#wrapper
+{
+
+	width: 960px;
+
+	margin: 0 auto;
+
+}
+
+
+header
+{
+
+	margin: 0 auto;
+
+	height: 2em;
+
+	padding-top: 2%;
+
+	padding-bottom: 2%;
+
+	background-color: #5B7989;
+
+	color:white;
+
+	width: 960px;
+	text-shadow: 2px 2px 2px #02010A;
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	display:flex;
+	flex-direction:row;
+	font-family: Dancing Script;
+
+
+	
+}
+
+header h1 {
+	width:60%;
+}
+
+header nav {
+	float:right, bottom;
+	width: 40%;
+}
+
+header nav li {
+	float: right;
+	display: inline;
+	margin: 10px;
+}
+ 
+
+
+article
+{
+
+	box-sizing: border-box;
+
+	float:left;
+
+	height: 100%;
+
+	background-color: grey;
+
+	padding: 2%;
+
+	text-align: center;
+
+	height:400px;
+	
+
+}
+
+	
+#columna1
+	{
+
+	background-color: #82C3A6;
+
+	width: 100%;
+
+
+	}
+
+#columna1 img {
+	width: 95%;
+	height: 95%;
+}
+	
+#columna2
+	{
+
+	background-color: #D5C75F;
+
+	width: 50%;
+
+	}
+
+#columna2 img {
+	width: 95%;
+	height: 95%;
+}
+
+	
+#columna3
+	{
+
+	background-color: #D5C75F;
+
+	width: 50%;
+
+	}
+
+
+#columna3 img {
+	width: 95%;
+	height: 95%;
+}
+
+
+#columna4 {
+	background-color: #C6D5C5;
+	width:25%;
+	height: 10em;
+	border-radius: 0px 0px 0px 10px;
+	-moz-border-radius: 0px 0px 0px 10px;
+	-webkit-border-radius: 0px 0px 0px 10px;
+}
+
+#columna5 {
+	background-color: #C6D5C5;
+	width:25%;
+	height: 10em;
+}
+
+#columna6 {
+	background-color: #C6D5C5;
+	width:25%;
+	height: 10em;
+}
+
+#columna7 {
+	background-color: #C6D5C5;
+	width:25%;
+	height: 10em;
+	border-radius: 0px 0px 10px 0px;
+	-moz-border-radius: 0px 0px 10px 0px;
+	-webkit-border-radius: 0px 0px 10px 0px;
+}
+
+
+
+@media screen and (max-width: 960px){
+
+
+	#wrapper
+	{
+
+		width: 90%;
+
+		margin: 0 auto;
+
+	}
+
+}
+
+
+@media screen and (max-width: 640px){
+
+
+	#wrapper
+	{
+
+		width: 100%;
+
+		margin: 0 auto;
+
+	}
+
+}
+
+
+@media screen and (max-width: 480px){
+
+
+#wrapper
+	{
+
+		width: 100%;
+
+		margin: 0 auto;
+
+	}
+	
+	#columna1
+	{
+
+	width: 100%;
+
+	}
+
+	#columna2
+	{
+
+	width: 100%;
+
+	}
+
+	#columna3
+	{
+
+	width: 100%;
+
+	}
+
+
+	header
+	{
+
+	width:100%;
+
+	}
+
+}
