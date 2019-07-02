@@ -1,51 +1,23 @@
-*
-{
-
-	margin:0;
-
-}
-
-
-body{
+﻿body {
 
 	background-color: #02010A;
-
-	color: black;
-
-	font-size: 16px;
-
-	font-family: Dancing Script;
-
-	margin:10px;
-
-}
-
-
-#wrapper
-{
+	font-family:Dancing Script;
 
 	width: 960px;
-
-	margin: 0 auto;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
 
 }
 
 
-header
-{
-
-	margin: 0 auto;
-
-	height: 2em;
-
-	padding-top: 2%;
-
+header {
+	height: 4em;
+	padding-top:2%;
 	padding-bottom: 2%;
-
 	background-color: #5B7989;
-
-	color:white;
-
+	color: white;
 	width: 960px;
 	text-shadow: 2px 2px 2px #02010A;
 	border-radius: 10px 10px 0px 0px;
@@ -54,196 +26,170 @@ header
 	display:flex;
 	flex-direction:row;
 	font-family: Dancing Script;
-
-
-	
 }
 
 header h1 {
 	width:60%;
+	text-indent: 20px;
+
+
 }
 
 header nav {
-	float:right, bottom;
-	width: 40%;
+	float: right, bottom;
+	width:40%
 }
 
 header nav li {
-	float: right;
+	float:right;
 	display: inline;
 	margin: 10px;
+	color:white;
 }
- 
+
+#contenido {
+	display: flex;
+	flex-direction:row;
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #D5C75F;
+	height: 400px;
+}
+
+#contenido img {
+	width: 90%;
+	height: 90%;
+	margin: 10px;
+}
+
+#contenedor1 {
+	width: 50%;
+	text-align: center;
+}
+
+#contenedor2 {
+	width: 50%;
+	text-align: center;
+}
+
+#imagen1 {
+	background-color: #82C3A6;
+	text-align: center;
+	height: 400px;
+}
 
 
-article
-{
+#imagen1 img {
+	width:90%;
+	height: 90%;
+	box-shadow: 2px 2px #02010A;
+	margin: 10px;
+}
 
-	box-sizing: border-box;
+#imagen2 {
+	width: 90%;
+	height: 90%;
+}
 
-	float:left;
+#imagen2 img {
+	width: 90%;
+	border: 1px solid black;
+	box-shadow: 2px 2px #02010A;
+}
 
-	height: 100%;
+#imagen3 {
+height: 90%;
+width:90%;
+}
 
-	background-color: grey;
+#imagen3 img {
 
-	padding: 2%;
+	border: 1px solid black;
+	box-shadow: 2px 2px #02010A;
+}
 
+footer {
+
+
+	background-color: #C6D5C5;
+	font-size: 16px;
+	line-height: 80%;	
 	text-align: center;
 
-	height:400px;
+	width:960px;
+	margin:0 auto;
+	display: flex;
+	flex-direction:row;
+	color: black;
+	height: 10em;
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
 	
-
 }
 
-	
-#columna1
-	{
-
-	background-color: #82C3A6;
-
-	width: 100%;
-
-
-	}
-
-#columna1 img {
-	width: 95%;
-	height: 95%;
-}
-	
-#columna2
-	{
-
-	background-color: #D5C75F;
-
-	width: 50%;
-
-	}
-
-#columna2 img {
-	width: 95%;
-	height: 95%;
-}
-
-	
-#columna3
-	{
-
-	background-color: #D5C75F;
-
-	width: 50%;
-
-	}
-
-
-#columna3 img {
-	width: 95%;
-	height: 95%;
-}
 
 
 #columna4 {
-	background-color: #C6D5C5;
 	width:25%;
-	height: 10em;
-	border-radius: 0px 0px 0px 10px;
-	-moz-border-radius: 0px 0px 0px 10px;
-	-webkit-border-radius: 0px 0px 0px 10px;
 }
 
 #columna5 {
-	background-color: #C6D5C5;
+
 	width:25%;
-	height: 10em;
+
 }
 
 #columna6 {
-	background-color: #C6D5C5;
+
 	width:25%;
-	height: 10em;
+
 }
 
 #columna7 {
-	background-color: #C6D5C5;
+
 	width:25%;
-	height: 10em;
-	border-radius: 0px 0px 10px 0px;
-	-moz-border-radius: 0px 0px 10px 0px;
-	-webkit-border-radius: 0px 0px 10px 0px;
-}
-
-
-
-@media screen and (max-width: 960px){
-
-
-	#wrapper
-	{
-
-		width: 90%;
-
-		margin: 0 auto;
-
-	}
 
 }
 
+#imagen2 img {
+	transition-property: rotate;
+	transition-duration: 1s;
+}
 
-@media screen and (max-width: 640px){
+#imagen2 img:hover {
+	transform: rotate(10deg);
+	box-shadow: 2px 2px #82C3A6;
+	border: 2px solid #82C3A6;
+}
 
+#imagen3 img {
+	transition-property: translate;
+	transition-duration: 1s;
+}
 
-	#wrapper
-	{
+#imagen3 img:hover {
+	transform: translate(20px,-5px);
+	box-shadow: 2px 2px #82C3A6;
+	border: 2px solid #82C3A6;
+}
 
-		width: 100%;
-
-		margin: 0 auto;
-
+@keyframes header-animation {
+	0% {
+		margin-top: 150%;
 	}
+	60% {
+		margin-top: -5%;
+	}
+	100% {
+		margin-top: 0%;
+	}
+}
 
+header {
+	animation-name: header-animation;
+	animation-duration: 1.5s;
 }
 
 
-@media screen and (max-width: 480px){
-
-
-#wrapper
-	{
-
-		width: 100%;
-
-		margin: 0 auto;
-
-	}
-	
-	#columna1
-	{
-
-	width: 100%;
-
-	}
-
-	#columna2
-	{
-
-	width: 100%;
-
-	}
-
-	#columna3
-	{
-
-	width: 100%;
-
-	}
-
-
-	header
-	{
-
-	width:100%;
-
-	}
-
-}
